@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css"><body>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <img src="/static/botpng.jpg" alt="Chatbot" class="bot-img">
+            <h1 class="chatbot-title">Chatbot</h1>
+        </div>
+        <div class="chatbot-body" id="chat-body">
+            <!-- Chat responses will be inserted here -->
+        </div>
+        <div class="chatbot-input-area">
+            <textarea id="user-input" placeholder="Type your query..." rows="2"></textarea>
+            <button id="send-btn">Submit</button>
+        </div>
+        <div class="loading-indicator" id="loading-indicator" style="display: none;">
+            <div class="spinner"></div> 
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script></body>
+</html>
